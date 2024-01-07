@@ -1,0 +1,16 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+head {
+        
+}
+
+body {
+    background-image: linear-gradient(to right, #5AE6E3, #5A8FE6, #59BAE5);
+}
+
+h1 {
+    font-family: 'Graduate', serif;
+    font-size: 2em;
+}
