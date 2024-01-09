@@ -3,6 +3,6 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="http://luizeo1994.github.io//html-css//ex001/index.html">Executar exercicio 001</a>
+<a href="http://luizeo1994.github.io/HTML-CSS/ex001/index.html">Executar exercicio 001</a>
 
 teste
