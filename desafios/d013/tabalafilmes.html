@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 500px;
+
+        }
+
+        th{
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px 10px;
+        }
+        
+        td{
+            border: 1px solid black;
+            
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            <strong>Filmes Favoritos</strong>
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col"><strong>GRUPO</strong></th>
+                <th scope="col"><strong>NOMES</strong></th>
+                <th colspan="3" scope="colgroup"><strong>FILMES</strong></th>
+            </tr>
+        </thead>
+
+        <Tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup"><strong>Mulheres</strong></th>
+                <td>Aline de Oliveira Souza</td>
+                <td>Alien</td>
+                <td>Rombo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Carolina</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Nilda</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup"><strong>Homens</strong></th>
+                <td>Eduardo</td>
+                <td>Intocavéis</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+            </tr>
+            
+            <tr>
+                <td>Xandy</td>
+                <td>Wall-E</td>
+                <td>Oldboy</td>
+                <td>Dangal</td>
+            </tr>
+            <tr>
+                <td>Luiz Henrique</td>
+                <td>Star Wars</td>
+                <td>Taxi Driver</td>
+                <td>Toy Story</td>
+            </tr>
+        </Tbody>
+
+    </table>
+</body>
+</html>
