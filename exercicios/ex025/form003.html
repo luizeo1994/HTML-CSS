@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Terte de Formulario</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" required placeholder="Nome completo" maxlength="30" autocomplete="name">
+        </p>
+        <p>
+            <label for="imedia"></label>
+            <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.1">
+        </p>
+
+        <p>
+           <input type="color" name="teste" id="teste">
+           <input type="datetime" name="date" id="date">
+           <input type="datetime-local" name="email" id="iemail" minlength="" style="flex-flow: column;">
+           <input type="email" name="email" id="iemail">
+           <input:vol> Volume (entre 0 e 100000):</input:vol>
+        </p>
+        <p>
+            <label for="Vol">Volume (entre 0 e 100000):</label>
+            <input type="range" name="vol" id="vol" min="0" max="100000">
+        </p>
+
+        <p>
+            <label for="gserch">Pesquisa Google</label>
+            <input type="search" name="gserch" id="gserch">
+            
+        </p>
+
+        <p>
+            <input type="file" name="arq" id="iarq">
+            <input type="week" name="w" id="w">
+        </p>
+
+        <p>
+            <label for="imes"></label>
+            <input type="month" name="mes" id="imes">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+
+</body>
+</html>
