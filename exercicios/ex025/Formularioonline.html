@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <form action="cadastro.php" method="get">
+            <fieldset>
+                <legend><strong>Formulario de Clientes</strong></legend>
+                <div class="inputbox">
+                    <input type="text" name="name" id="iname" class="inputuser" required>
+                    <label for="iname" class="labelinput">Nome completo</label>
+                </div>
+                <br><br>
+
+                <div class="inputbox">
+                    <input type="text" name="ema" id="iema" class="inputuser" required>
+                    <label for="iema" class="labelinput">Email</label>
+                </div>
+                <br><br>
+
+                <div class="inputbox">
+                    <input type="tel" name="tel" id="itel" class="inputuser" required>
+                    <label for="itel" class="labelinput">Telefone</label>
+                </div>
+                <br>
+
+                <p>Sexo:</p>
+                <input type="radio" name="genero" id="feminino" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <br>
+                <input type="radio" name="genero" id="masculino" value="masculino" required>
+                <label for="masulino">masculino</label>
+                <br>
+                <input type="radio" name="genero" id="outro" value="outro" required>
+                <label for="outro">Outro</label>
+                <br><br>
+            
+                <label for="idate"><strong>Data de Nascimento:</strong></label> 
+                <input type="date" name="date" id="idate" required>
+                <br><br><br>
+                
+                <div class="inputbox">
+                    <input type="text" name="cid" id="icid" class="inputuser" required>
+                    <label for="icid" class="labelinput">Cidade </label>
+                </div>
+                <br><br>
+
+                <div class="inputbox">
+                    <input type="text" name="est" id="iest" class="inputuser" required> 
+                    <label for="iest" class="labelinput">Estado</label>
+                    
+                </div>
+                <br><br>
+
+                <div class="inputbox">
+                    <input type="text" name="end" id="iend" class="inputuser" required>
+                    <label for="iend" class="labelinput">Endereço</label>
+                </div>
+                <br><br>
+
+                <input id="submit" type="submit" value="Enviar" required>
+                
+            </fieldset>
+        </form>
+        </div>
+    </body>
+</html>
