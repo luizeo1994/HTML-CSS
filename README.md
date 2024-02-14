@@ -7,5 +7,3 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
 <a ref="https://luizeo1994.github.io/html-css/exercicios/ex026/mq003/index.html">Executar exercicio 026 MQ003</a>
 
-
-teste
