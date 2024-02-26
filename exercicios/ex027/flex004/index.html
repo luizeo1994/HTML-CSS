@@ -6,6 +6,8 @@
     <title>Flexible box</title>
     <style>
         div.container{
+
+            background-color: darkblue;
             display: flex; /*Transforma o Container em Flexible Box*/
             
             /* flex-direction: ; dreção da coluna ROW / ROW REVERSE e COLUNM / COLUNM-REVERSE*/
@@ -13,6 +15,9 @@
             /*flex-wrap: ; tutilizado para realizar a quebra do conteudo*/
             
            flex-flow: row wrap;
+           justify-content: space-between;
+           align-items: self-end;
+           height: 250px;
         }
 
         div.item{
@@ -20,23 +25,24 @@
             border: 1px solid black;
             padding: 5px;
             margin: 5px;
-            float: auto;
-             
+            height: 100%;
+            
+            
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="item">exemplo de bloco A</div>
-        <div class="item">exemplo de bloco B</div>
-        <div class="item">exemplo de bloco C</div>
-        <div class="item">exemplo de bloco D</div>
-        <div class="item">exemplo de bloco E</div>
-        <div class="item">exemplo de bloco F</div>
-        <div class="item">exemplo de bloco G</div>
-        <div class="item">exemplo de bloco H</div>
-        <div class="item">exemplo de bloco I</div>
-        <div class="item">exemplo de bloco I</div>
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">I</div>
     </div>
 </body>
 </html>
